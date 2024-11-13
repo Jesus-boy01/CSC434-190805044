@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*---- header section ----*/
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section ul {
+    list-style: none;
+    display: flex;
+}
+
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.right-section ul li {
+    margin-right: 20px;
+}
+
+.right-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-section .navigation {
+    border-right: 2px solid #ccc;
+}
+
+#home-nav {
+    color: #FF6433;
+}
+
+.right-section .navigation ul li a:hover {
+    color: #FF6433;
+}
+
+.road-assistance .icon {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#hero-section .text-section {
+    width: 45%;
+}
+
+#hero-section .image-section {
+    width: 55%;
+}
+
+#hero-section,
+#quote-section,
+#service-section,
+#brand-section,
+#reviews-section{
+    padding: 80px 0;
+}
+
+#hero-section .image-section {
+    background-image: url("../img/header-image.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section h1 {
+    font-size: 64px;
+}
+
+.orange-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 35px;
+    display: inline-block;
+    color: #fff;
+}
+
+.time-section {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.text-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .time-text {
+    width: 95%;
+}
+
+.time-section img {
+    width: 100%;
+}
+
+.light-grey {
+    color: #939191;
+}
+
+#quote-section {
+    background: #E2E6E9;
+}
+
+#quote-section .flex .flex-sm-column {
+    justify-content: space-between;
+}
+
+#quote-section .left-section,
+#quote-section .right-form-section {
+    width: 50%;
+}
+
+#quote-section .left-section {
+    margin-right: 50px;
+}
+
+#quote-section ul {
+    list-style: none;
+}
+
+#quote-section ul li {
+    margin-bottom: 20px;
+}
+
+#quote-section .left-section h2 {
+    margin-bottom: 30px;
+    font-size: 58px;
+}
+
+#quote-section .left-section .image-box {
+    width: 5%;
+    margin-right: 10px;
+}
+
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+
+#quote-section .left-section .text-box {
+    width: 60%;
+}
+
+#quote-section .left-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#quote-section .right-form-section h3 {
+    font-size: 48px;
+}
+
+#quote-section .right-form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*--- about section ---*/
+
+#about-section {
+    padding: 200px 0;
+}
+
+.learnmore {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.learnmore h3 {
+    font-size: 58px;
+    margin-bottom: 15px;
+    color: #1E1B1B;
+}
+
+.learnmore p {
+    font-size: 16px;
+    color: #939191;
+}
+
+.about {
+    width: 50%;
+    margin-top: -100px;
+}
+
+.listings {
+    display: flex;
+}
+
+.listings-image {
+    text-align: center;
+    margin-right: 18px;
+}
+
+.line {
+    text-align: center;
+    width: 3%;
+    margin: 15px 34px;
+    display: flex;
+}
+
+.listings-content h5 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #1E1B1B;
+}
+
+.listings-content p {
+    font-size: 18px;
+    color: #1E1B1B;
+    opacity: 0.6;
+}
+
+/*---- service section ----*/
+
+#service-section {
+    background-color: #F2F2F2;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.service-header h5 {
+    font-size: 24px;
+}
+
+.service-header h2 {
+    font-size: 58px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-section1,
+.services-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.diagnostics,
+.body-work,
+.engine-repair,
+.batteries,
+.insurance-claim,
+.oil-filter,
+.custom-service {
+    padding: 50px 50px;
+    background-color: #fff;
+    text-align: center;
+    margin-left: 5px;
+    width: 200px;
+}
+
+.wheel-repair {
+    padding: 50px 50px;
+    background-color: #FF6433;
+    color: #fff;
+    text-align: center;
+    margin-left: 5px;
+    width: 200px;
+}
+
+.diagnostics:hover,
+.body-work:hover,
+.engine-repair:hover,
+.batteries:hover,
+.insurance-claim:hover,
+.oil-filter:hover,
+.custom-service:hover {
+    background-color: #FF6433;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.diagnostics p,
+.engine-repair p,
+.oil-filter p,
+.body-work p,
+.batteries p,
+.insurance-claim p,
+.custom-service p {
+    margin-top: 10px;
+}
+
+.wheel-repair p {
+    margin-top: 10px;
+}
+
+#diagnostics {
+    padding: 50px 61px;
+}
+
+.antenna {
+    margin: 0 0 -15px -11px;
+}
+
+.learn-about-services {
+    display: flex;
+    width: 75%;
+    justify-content: flex-end;
+    margin: 20px auto 0;
+}
+
+.learn-about-services p {
+    font-size: 18px;
+}
+
+/*--- experience section ----*/
+
+.display {
+    display: flex;
+    max-height: 350px;
+}
+
+.car-getintouch {
+    display: flex;
+    background-image: url("../img/mechanic-repair.png");
+    width: 18%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display-text {
+    background-color: #FF6433;
+    width: 40%;
+}
+
+.carengine {
+    width: 42%;
+}
+
+.display-text h5 {
+    font-size: 35px;
+    color: #F2F2F2;
+    padding: 45px 40px 50px;
+}
+
+.display-text a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1E1B1B;
+    padding: 15px 25px 15px;
+    border-radius: 5px;
+}
+
+.display-text a:hover {
+    color: #FF6433;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.carengine img {
+    width: 100%;
+    height: 100%;
+}
+
+.experience {
+    background-color: #F2F2F2;
+    padding: 50px 0;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.professionals,
+.years-of-experience,
+.service-closed,
+.customer-satisfaction {
+    margin: 0 20px;
+}
+
+.exp-paragraph-head {
+    font-size: 58px;
+    color: #661CE7;
+    font-weight: bolder;
+}
+
+.exp-paragraph-text {
+    width: 190px;
+}
+
+.exp-paragraph-text p {
+    color: #1E1B1B;
+    margin-top: 10px;
+}
+
+/*---- brand section ----*/
+
+#brand-section {
+    margin-bottom: 50px;
+}
+
+.brand-header h5 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.division1,
+.division2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.division1 {
+    margin-bottom: 80px;
+}
+
+.vector {
+    display: flex;
+    width: 18%;
+    align-items: center;
+}
+
+.vector img {
+    margin-right: 10px;
+}
+
+.vector-text {
+    font-size: 20px;
+}
+
+.vector-text p {
+    font-weight: bolder;
+}
+
+.vec-dot {
+    margin-bottom: 8px;
+}
+
+#vector {
+    margin: 0;
+}
+
+#vectorpart1 {
+    margin: 0 -23px 13px 0;
+}
+
+#vectorpart2 {
+    margin: 0 10px 0 -21px;
+}
+
+#vector2part {
+    margin: 0 10px 5px -14px;
+}
+
+/*---- reviews section ----*/
+
+#reviews-section {
+    background-color: #F2F2F2;
+    height: auto;
+}
+
+.reviews-division {
+    justify-content: space-around;
+}
+
+.reviews-header {
+    text-align: center;
+}
+
+.reviews-header h3 {
+    font-size: 48px;
+    margin-bottom: 100px;
+}
+
+.review-content {
+    width: 47%;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.review-heading {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.review-image {
+    margin-right: 20px;
+}
+
+.review-text h5 {
+    font-size: 24px;
+}
+
+.review-text p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.review-paragraph p {
+    font-size: 24px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.reviews-navigations {
+    margin-bottom: 20px;
+}
+
+.pages,
+.arrow-navigations {
+    display: flex;
+}
+
+.pages {
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.arrow-navigations {
+    justify-content: flex-end;
+    margin-top: -32px;
+}
+
+.arrow-navigations img {
+    width: 5%;
+}
+
+/*---- faq section ----*/
+
+#faq-section {
+    background-color: #E2E6E9;
+    padding: 150px 0;
+}
+
+.faq-header h3 {
+    font-size: 48px;
+    color: #1E1B1B;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.faq-content {
+    margin: 0 150px;
+}
+
+.time-duration,
+.appointment,
+.repair-services,
+.auto-body,
+.spare-parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 20px 20px 20px 10px;
+}
+
+.faq-content h5 {
+    font-size: 24px;
+}
+
+.duration p {
+    width: 90%;
+    font-size: 18px;
+}
+
+.duration-function img {
+    margin-bottom: 80px;
+}
+
+.content {
+    width: 90%;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+/*---- contact section ----*/
+
+#contact-section {
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.contact-service {
+    width: 40%;
+}
+
+.contact-service h3 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.contact-service img {
+    margin-right: 20px;
+}
+
+.contacts {
+    width: 60%;
+    padding-left: 130px;
+}
+
+.contacts ul li {
+    list-style: none;
+    color: #939191;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contacts ul p {
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+/*---- footer ----*/
+
+footer {
+    background-color: #1E1B1B;
+    padding: 60px 0;
+}
+
+.footer {
+    align-items: center;
+}
+
+.footer-logo {
+    width: 30%;
+    color: #fff;
+}
+
+.footer-nav-links {
+    width: 50%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-text {
+    width: 20%;
+    color: #939191;
+    font-size: 16px;
+}
+
+.footer-nav-links ul li {
+    list-style: none;
+}
+
+.footer-nav-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.footer-nav-links ul li a:hover {
+    color: #FF6433;
+    transition: 0.3s ease-in-out;
+}
